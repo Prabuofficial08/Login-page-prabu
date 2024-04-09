@@ -1,0 +1,120 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  body{
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background: url('WhatsApp\ Image\ 2024-04-08\ at\ 23.46.02_d7fc6ae7.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .reg-login-container{
+    width: 400px;
+    background-color:purple;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+  }
+
+  .reg-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .reg-container h1{
+   font-weight: 600;
+
+  }
+  
+
+  .reg-input-box {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+  .reg-input-box input {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px 45px 20px 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    font-size:18;
+   
+    
+  
+  }
+.reg-input-box ::placeholder{
+  color:white;
+  opacity: 68%;
+}
+.reg-input-box i{
+    color: white;
+    margin-top: 20px;
+     position: absolute;
+     right:20px;
+     justify-content: center;
+     align-items: center;
+}
+.reg-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.reg-btn button{
+  
+    height: 40px;
+    width: 250px;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.reg-btn button:hover{
+    background-color:rgb(142, 82, 224);
+    border:3px solid  rgba(255,255,255,.2);
+    cursor: pointer;
+}
+
+.reg-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    color: white;
+}
+.reg-register a{
+    color: white;
+    text-decoration: none;
+}
+.reg-register a:hover{
+    text-decoration:underline;
+}
